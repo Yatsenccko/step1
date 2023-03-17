@@ -17,7 +17,7 @@ function selectTab(tabObj) {
 
 const bigFace = document.querySelector('.big-face')
 const allImgs = document.querySelectorAll('.circle-people')
-const allText = document.querySelectorAll(".Integer-text")
+const allText = document.querySelectorAll(".integer-text")
 const namesText = document.querySelectorAll(".names")
 let currentItem = 1;
 
@@ -37,9 +37,9 @@ function setCurrentImg(current) {
 }
 function setCurrentText(current) {
     allText.forEach(element => {
-        element.classList.remove('Integer-text-active')
+        element.classList.remove('integer-text-active')
     })
-    allText[current].classList.add('Integer-text-active')
+    allText[current].classList.add('integer-text-active')
 }
 
 function setBtnsClick() {
